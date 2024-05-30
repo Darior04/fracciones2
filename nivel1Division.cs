@@ -33,7 +33,7 @@ namespace fracciones
                 valor2 == valoresEsperados[1] &&
                 valor3 == valoresEsperados[2] &&
                 valor4 == valoresEsperados[3])
-                
+
             {
                 // Mostrar mensaje de felicitación
                 MessageBox.Show("¡Felicidades, lo hiciste correctamente!", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -43,6 +43,18 @@ namespace fracciones
                 // Mostrar mensaje de error
                 MessageBox.Show("Lo siento, los valores ingresados no son correctos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            // formulario que quieres mostrar
+            division ventana = new division();
+
+            // Mostrar el nuevo formulario
+            ventana.Show();
+
+            // Cerrar el formulario actual
+            this.Hide();
         }
     }
 }

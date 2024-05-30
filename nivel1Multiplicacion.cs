@@ -30,7 +30,7 @@ namespace fracciones
             // Verificar si los valores ingresados son correctos
             if (valor1 == valoresEsperados[0] &&
                 valor2 == valoresEsperados[1] &&
-                valor3 == valoresEsperados[2] )
+                valor3 == valoresEsperados[2])
             {
                 // Mostrar mensaje de felicitación
                 MessageBox.Show("¡Felicidades, lo hiciste correctamente!", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -38,8 +38,20 @@ namespace fracciones
             else
             {
                 // Mostrar mensaje de error
-                MessageBox.Show("Lo siento, los valores ingresados no son correctos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Si tienes dudas sobre como realizar este problema, podrias consultar la seccion de ayuda en la pagina de inicio.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            // formulario que quieres mostrar
+            multiplicacion ventana = new multiplicacion();
+
+            // Mostrar el nuevo formulario
+            ventana.Show();
+
+            // Cerrar el formulario actual
+            this.Hide();
         }
     }
 }

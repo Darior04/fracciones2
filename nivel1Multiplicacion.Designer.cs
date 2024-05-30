@@ -34,6 +34,7 @@
             numero1 = new TextBox();
             numero2 = new TextBox();
             numero3 = new TextBox();
+            btnAtras = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -78,11 +79,22 @@
             numero3.Size = new Size(39, 23);
             numero3.TabIndex = 4;
             // 
+            // btnAtras
+            // 
+            btnAtras.Location = new Point(12, 62);
+            btnAtras.Name = "btnAtras";
+            btnAtras.Size = new Size(102, 35);
+            btnAtras.TabIndex = 5;
+            btnAtras.Text = "Volver";
+            btnAtras.UseVisualStyleBackColor = true;
+            btnAtras.Click += btnAtras_Click;
+            // 
             // nivel1Multiplicacion
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnAtras);
             Controls.Add(numero3);
             Controls.Add(numero2);
             Controls.Add(numero1);
@@ -102,5 +114,6 @@
         private TextBox numero1;
         private TextBox numero2;
         private TextBox numero3;
+        private Button btnAtras;
     }
 }

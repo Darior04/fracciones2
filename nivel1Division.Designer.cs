@@ -35,6 +35,7 @@
             numero3 = new TextBox();
             numero4 = new TextBox();
             btnChecar = new Button();
+            btnAtras = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -86,11 +87,22 @@
             btnChecar.UseVisualStyleBackColor = true;
             btnChecar.Click += btnChecar_Click;
             // 
+            // btnAtras
+            // 
+            btnAtras.Location = new Point(34, 96);
+            btnAtras.Name = "btnAtras";
+            btnAtras.Size = new Size(76, 46);
+            btnAtras.TabIndex = 7;
+            btnAtras.Text = "Volver";
+            btnAtras.UseVisualStyleBackColor = true;
+            btnAtras.Click += btnAtras_Click;
+            // 
             // nivel1Division
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnAtras);
             Controls.Add(btnChecar);
             Controls.Add(numero4);
             Controls.Add(numero3);
@@ -111,5 +123,6 @@
         private TextBox numero3;
         private TextBox numero4;
         private Button btnChecar;
+        private Button btnAtras;
     }
 }
