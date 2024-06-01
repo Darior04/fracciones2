@@ -66,6 +66,7 @@
             // 
             // BtnSuma
             // 
+            BtnSuma.FlatAppearance.BorderSize = 0;
             BtnSuma.AutoSize = true;
             BtnSuma.FlatStyle = FlatStyle.Flat;
             BtnSuma.Image = (Image)resources.GetObject("BtnSuma.Image");
@@ -92,6 +93,7 @@
             // 
             // BtnInfo
             // 
+            BtnInfo.FlatAppearance.BorderSize = 0;
             BtnInfo.FlatStyle = FlatStyle.Flat;
             BtnInfo.Image = (Image)resources.GetObject("BtnInfo.Image");
             BtnInfo.Location = new Point(437, 375);
@@ -103,6 +105,7 @@
             // 
             // BtnMultiplicacion
             // 
+            BtnMultiplicacion.FlatAppearance.BorderSize = 0;
             BtnMultiplicacion.FlatStyle = FlatStyle.Flat;
             BtnMultiplicacion.Image = (Image)resources.GetObject("BtnMultiplicacion.Image");
             BtnMultiplicacion.Location = new Point(304, 510);
@@ -114,7 +117,9 @@
             BtnMultiplicacion.Click += BtnMultiplicacion_Click;
             // 
             // BtnDivision
-            // 
+            //
+            //
+            BtnDivision.FlatAppearance.BorderSize = 0;
             BtnDivision.FlatStyle = FlatStyle.Flat;
             BtnDivision.Image = (Image)resources.GetObject("BtnDivision.Image");
             BtnDivision.Location = new Point(571, 510);
