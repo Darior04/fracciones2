@@ -43,9 +43,10 @@
             // titulo
             // 
             titulo.Image = (Image)resources.GetObject("titulo.Image");
-            titulo.Location = new Point(305, 12);
+            titulo.Location = new Point(349, 16);
+            titulo.Margin = new Padding(3, 4, 3, 4);
             titulo.Name = "titulo";
-            titulo.Size = new Size(282, 145);
+            titulo.Size = new Size(322, 193);
             titulo.SizeMode = PictureBoxSizeMode.StretchImage;
             titulo.TabIndex = 0;
             titulo.TabStop = false;
@@ -54,9 +55,10 @@
             // ajoloteInicio
             // 
             ajoloteInicio.Image = (Image)resources.GetObject("ajoloteInicio.Image");
-            ajoloteInicio.Location = new Point(619, 257);
+            ajoloteInicio.Location = new Point(707, 343);
+            ajoloteInicio.Margin = new Padding(3, 4, 3, 4);
             ajoloteInicio.Name = "ajoloteInicio";
-            ajoloteInicio.Size = new Size(264, 259);
+            ajoloteInicio.Size = new Size(302, 345);
             ajoloteInicio.SizeMode = PictureBoxSizeMode.StretchImage;
             ajoloteInicio.TabIndex = 1;
             ajoloteInicio.TabStop = false;
@@ -65,59 +67,69 @@
             // BtnSuma
             // 
             BtnSuma.AutoSize = true;
-            BtnSuma.Location = new Point(305, 228);
+            BtnSuma.FlatStyle = FlatStyle.Flat;
+            BtnSuma.Image = (Image)resources.GetObject("BtnSuma.Image");
+            BtnSuma.Location = new Point(304, 242);
+            BtnSuma.Margin = new Padding(3, 4, 3, 4);
             BtnSuma.Name = "BtnSuma";
-            BtnSuma.Size = new Size(75, 25);
+            BtnSuma.Size = new Size(133, 131);
             BtnSuma.TabIndex = 2;
-            BtnSuma.Text = "+";
             BtnSuma.UseVisualStyleBackColor = true;
             BtnSuma.Click += BtnSuma_Click;
             // 
             // BtnResta
             // 
-            BtnResta.Location = new Point(443, 228);
+            BtnResta.FlatStyle = FlatStyle.Flat;
+            BtnResta.Image = (Image)resources.GetObject("BtnResta.Image");
+            BtnResta.Location = new Point(571, 242);
+            BtnResta.Margin = new Padding(3, 4, 3, 4);
             BtnResta.Name = "BtnResta";
-            BtnResta.Size = new Size(75, 23);
+            BtnResta.Size = new Size(130, 131);
             BtnResta.TabIndex = 3;
-            BtnResta.Text = "-";
             BtnResta.UseVisualStyleBackColor = true;
             BtnResta.Click += BtnResta_Click;
             // 
             // BtnInfo
             // 
-            BtnInfo.Location = new Point(375, 284);
+            BtnInfo.FlatStyle = FlatStyle.Flat;
+            BtnInfo.Image = (Image)resources.GetObject("BtnInfo.Image");
+            BtnInfo.Location = new Point(437, 375);
+            BtnInfo.Margin = new Padding(3, 4, 3, 4);
             BtnInfo.Name = "BtnInfo";
-            BtnInfo.Size = new Size(75, 23);
+            BtnInfo.Size = new Size(133, 127);
             BtnInfo.TabIndex = 4;
-            BtnInfo.Text = "?";
             BtnInfo.UseVisualStyleBackColor = true;
             // 
             // BtnMultiplicacion
             // 
-            BtnMultiplicacion.Location = new Point(305, 336);
+            BtnMultiplicacion.FlatStyle = FlatStyle.Flat;
+            BtnMultiplicacion.Image = (Image)resources.GetObject("BtnMultiplicacion.Image");
+            BtnMultiplicacion.Location = new Point(304, 510);
+            BtnMultiplicacion.Margin = new Padding(3, 4, 3, 4);
             BtnMultiplicacion.Name = "BtnMultiplicacion";
-            BtnMultiplicacion.Size = new Size(75, 23);
+            BtnMultiplicacion.Size = new Size(133, 129);
             BtnMultiplicacion.TabIndex = 5;
-            BtnMultiplicacion.Text = "x";
             BtnMultiplicacion.UseVisualStyleBackColor = true;
             BtnMultiplicacion.Click += BtnMultiplicacion_Click;
             // 
             // BtnDivision
             // 
-            BtnDivision.Location = new Point(443, 336);
+            BtnDivision.FlatStyle = FlatStyle.Flat;
+            BtnDivision.Image = (Image)resources.GetObject("BtnDivision.Image");
+            BtnDivision.Location = new Point(571, 510);
+            BtnDivision.Margin = new Padding(3, 4, 3, 4);
             BtnDivision.Name = "BtnDivision";
-            BtnDivision.Size = new Size(75, 23);
+            BtnDivision.Size = new Size(130, 129);
             BtnDivision.TabIndex = 6;
-            BtnDivision.Text = "÷";
             BtnDivision.UseVisualStyleBackColor = true;
             BtnDivision.Click += BtnDivision_Click;
             // 
             // Iniciopag
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(150, 189, 223);
-            ClientSize = new Size(895, 524);
+            ClientSize = new Size(1023, 699);
             Controls.Add(BtnDivision);
             Controls.Add(BtnMultiplicacion);
             Controls.Add(BtnInfo);
@@ -125,6 +137,7 @@
             Controls.Add(BtnSuma);
             Controls.Add(ajoloteInicio);
             Controls.Add(titulo);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Iniciopag";
             Text = "inicio";
             ((System.ComponentModel.ISupportInitialize)titulo).EndInit();

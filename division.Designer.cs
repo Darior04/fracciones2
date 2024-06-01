@@ -36,19 +36,21 @@
             // 
             // BtnBack
             // 
-            BtnBack.Location = new Point(12, 12);
+            BtnBack.FlatStyle = FlatStyle.Flat;
+            BtnBack.Location = new Point(14, 16);
+            BtnBack.Margin = new Padding(3, 4, 3, 4);
             BtnBack.Name = "BtnBack";
-            BtnBack.Size = new Size(159, 80);
+            BtnBack.Size = new Size(182, 107);
             BtnBack.TabIndex = 0;
-            BtnBack.Text = "Inicio";
             BtnBack.UseVisualStyleBackColor = true;
             BtnBack.Click += BtnBack_Click;
             // 
             // Nivel1
             // 
-            Nivel1.Location = new Point(275, 113);
+            Nivel1.Location = new Point(314, 151);
+            Nivel1.Margin = new Padding(3, 4, 3, 4);
             Nivel1.Name = "Nivel1";
-            Nivel1.Size = new Size(56, 96);
+            Nivel1.Size = new Size(64, 128);
             Nivel1.TabIndex = 1;
             Nivel1.Text = "Nivel 1";
             Nivel1.UseVisualStyleBackColor = true;
@@ -56,32 +58,35 @@
             // 
             // Nivel2
             // 
-            Nivel2.Location = new Point(363, 125);
+            Nivel2.Location = new Point(415, 167);
+            Nivel2.Margin = new Padding(3, 4, 3, 4);
             Nivel2.Name = "Nivel2";
-            Nivel2.Size = new Size(47, 82);
+            Nivel2.Size = new Size(54, 109);
             Nivel2.TabIndex = 2;
             Nivel2.Text = "Nivel 2";
             Nivel2.UseVisualStyleBackColor = true;
             // 
             // Nivel3
             // 
-            Nivel3.Location = new Point(430, 129);
+            Nivel3.Location = new Point(491, 172);
+            Nivel3.Margin = new Padding(3, 4, 3, 4);
             Nivel3.Name = "Nivel3";
-            Nivel3.Size = new Size(58, 83);
+            Nivel3.Size = new Size(66, 111);
             Nivel3.TabIndex = 3;
             Nivel3.Text = "Nivel 3";
             Nivel3.UseVisualStyleBackColor = true;
             // 
             // division
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(150, 189, 223);
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(Nivel3);
             Controls.Add(Nivel2);
             Controls.Add(Nivel1);
             Controls.Add(BtnBack);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "division";
             Text = "division";
             ResumeLayout(false);
