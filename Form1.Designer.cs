@@ -79,6 +79,7 @@
             // 
             // BtnResta
             // 
+            BtnResta.FlatAppearance.BorderSize = 0;
             BtnResta.FlatStyle = FlatStyle.Flat;
             BtnResta.Image = (Image)resources.GetObject("BtnResta.Image");
             BtnResta.Location = new Point(571, 242);
