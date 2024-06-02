@@ -66,8 +66,8 @@
             // 
             // BtnSuma
             // 
-            BtnSuma.FlatAppearance.BorderSize = 0;
             BtnSuma.AutoSize = true;
+            BtnSuma.FlatAppearance.BorderSize = 0;
             BtnSuma.FlatStyle = FlatStyle.Flat;
             BtnSuma.Image = (Image)resources.GetObject("BtnSuma.Image");
             BtnSuma.Location = new Point(304, 242);
@@ -96,7 +96,7 @@
             BtnInfo.FlatAppearance.BorderSize = 0;
             BtnInfo.FlatStyle = FlatStyle.Flat;
             BtnInfo.Image = (Image)resources.GetObject("BtnInfo.Image");
-            BtnInfo.Location = new Point(437, 375);
+            BtnInfo.Location = new Point(432, 381);
             BtnInfo.Margin = new Padding(3, 4, 3, 4);
             BtnInfo.Name = "BtnInfo";
             BtnInfo.Size = new Size(133, 127);
@@ -117,8 +117,7 @@
             BtnMultiplicacion.Click += BtnMultiplicacion_Click;
             // 
             // BtnDivision
-            //
-            //
+            // 
             BtnDivision.FlatAppearance.BorderSize = 0;
             BtnDivision.FlatStyle = FlatStyle.Flat;
             BtnDivision.Image = (Image)resources.GetObject("BtnDivision.Image");
@@ -135,7 +134,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(150, 189, 223);
-            ClientSize = new Size(1023, 699);
+            ClientSize = new Size(1123, 799);
             Controls.Add(BtnDivision);
             Controls.Add(BtnMultiplicacion);
             Controls.Add(BtnInfo);
@@ -144,6 +143,8 @@
             Controls.Add(ajoloteInicio);
             Controls.Add(titulo);
             Margin = new Padding(3, 4, 3, 4);
+            MaximumSize = new Size(1141, 846);
+            MinimumSize = new Size(1141, 846);
             Name = "Iniciopag";
             Text = "inicio";
             ((System.ComponentModel.ISupportInitialize)titulo).EndInit();
