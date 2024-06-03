@@ -1801,7 +1801,7 @@
   <data name="BtnResta.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAH4AAAB6CAYAAAB5sueeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vgAADr4B6kKxwAAAA3NJREFUeF7t2M9LFGEcx/H5ZyxLIVPyIgTVoQjsUsdunTsFHYKoS6cOHYM6BeUP
+        vQAADr0BR/uQrQAAA3NJREFUeF7t2M9LFGEcx/H5ZyxLIVPyIgTVoQjsUsdunTsFHYKoS6cOHYM6BeUP
         xIgiBHVmdp/x127qqmmGLAQRUfTDrEDddf3mM6Hr7n51gw4yz+cz8NrLfJ+5vHdnnh2vK8pLPf1mUsL0
         E8mGd2U6dVty1UI6SFOpOzKWvi8DZkDtp9k3/Ejqgbz3L8nacAMlxI/hdpkPr8tzY9Sm29Twg+ln8jHo
         VC9MyTET3qxpu60m/ETqnnoRSiZ7x7aP6urOFeHtM1xbTMn2KTgvfSanh7ebN20RueFdcLk2fLdZkm/+
@@ -1822,7 +1822,7 @@
   <data name="BtnInfo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAH0AAAB+CAYAAAAJFB6LAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vgAADr4B6kKxwAAABExJREFUeF7tmz1PVEEUhvfPSTRoovwG/4CNhMJGpbaytWDvrqUloTFEGmNjYmJi
+        vQAADr0BR/uQrQAABExJREFUeF7tmz1PVEEUhvfPSTRoovwG/4CNhMJGpbaytWDvrqUloTFEGmNjYmJi
         ImCBn2AIypeiMM47y4W7s2dZzJrgnPc9yUPIvWeH4rnnzOzcodVdWg6CC0knZLT0xZXQaa+F6sHHUM1+
         CdX9jHvr4iKBk+gGjuDKdJgxVDoGad/aDHOX98LcpX1RAtEVnKUHwHBaMyh9frUn2xpUFAMcwuWA30if
         dDwhc1Pb5iCiQKJLq+pPpCfhauX+iE5z8T3psQ2owh0T3TZbfZKuOdw/aY6vpae2biQJf9RtvqUq56Gu
@@ -1875,7 +1875,7 @@
   <data name="BtnDivision.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIEAAACCCAYAAABhNKv+AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
-        cwAAEnMBjCK5BwAABG5JREFUeF7t219olWUcwPEuy0hSRl4kGGjYNm2uXIPyz5xsyyEG1oSIICiMbiIQ
+        cgAAEnIBXmVb4wAABG5JREFUeF7t219olWUcwPEuy0hSRl4kGGjYNm2uXIPyz5xsyyEG1oSIICiMbiIQ
         CgS78EpIlqgwL9SLhHRrc3+k0baT6QSnWZm1JdmosHYxJSIUpfnn8fmNHT3H9/ced2DoeX/P94EPDM/z
         vOfi+Z73vO/L8aHPjw07hI0IQATIM4K2bV+47tc/dKmyNe5IUYXrf6TE9T9cjAJy9LGF7vCcKtdT/Zbr
         2rDNHeg6pe5lpklF0LF5j0uV1qtvisLX3bAhZww5I9ifGnI99e+pB0ayyJlbPszaPsdGIOXIaV87IJLr

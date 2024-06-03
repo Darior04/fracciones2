@@ -40,10 +40,9 @@
             BtnBack.FlatAppearance.BorderSize = 0;
             BtnBack.FlatStyle = FlatStyle.Flat;
             BtnBack.Image = (Image)resources.GetObject("BtnBack.Image");
-            BtnBack.Location = new Point(33, 77);
-            BtnBack.Margin = new Padding(3, 4, 3, 4);
+            BtnBack.Location = new Point(12, 21);
             BtnBack.Name = "BtnBack";
-            BtnBack.Size = new Size(140, 142);
+            BtnBack.Size = new Size(139, 143);
             BtnBack.TabIndex = 0;
             BtnBack.UseVisualStyleBackColor = true;
             BtnBack.Click += BtnBack_Click;
@@ -53,10 +52,9 @@
             Nivel1.FlatAppearance.BorderSize = 0;
             Nivel1.FlatStyle = FlatStyle.Flat;
             Nivel1.Image = (Image)resources.GetObject("Nivel1.Image");
-            Nivel1.Location = new Point(252, 225);
-            Nivel1.Margin = new Padding(3, 4, 3, 4);
+            Nivel1.Location = new Point(204, 128);
             Nivel1.Name = "Nivel1";
-            Nivel1.Size = new Size(128, 155);
+            Nivel1.Size = new Size(145, 162);
             Nivel1.TabIndex = 1;
             Nivel1.UseVisualStyleBackColor = true;
             Nivel1.Click += Nivel1_Click;
@@ -66,36 +64,34 @@
             Nivel2.FlatAppearance.BorderSize = 0;
             Nivel2.FlatStyle = FlatStyle.Flat;
             Nivel2.Image = (Image)resources.GetObject("Nivel2.Image");
-            Nivel2.Location = new Point(426, 225);
-            Nivel2.Margin = new Padding(3, 4, 3, 4);
+            Nivel2.Location = new Point(355, 128);
             Nivel2.Name = "Nivel2";
-            Nivel2.Size = new Size(130, 155);
+            Nivel2.Size = new Size(132, 162);
             Nivel2.TabIndex = 2;
             Nivel2.UseVisualStyleBackColor = true;
+            Nivel2.Click += Nivel2_Click;
             // 
             // Nivel3
             // 
             Nivel3.FlatAppearance.BorderSize = 0;
             Nivel3.FlatStyle = FlatStyle.Flat;
             Nivel3.Image = (Image)resources.GetObject("Nivel3.Image");
-            Nivel3.Location = new Point(599, 225);
-            Nivel3.Margin = new Padding(3, 4, 3, 4);
+            Nivel3.Location = new Point(493, 128);
             Nivel3.Name = "Nivel3";
-            Nivel3.Size = new Size(129, 155);
+            Nivel3.Size = new Size(144, 162);
             Nivel3.TabIndex = 3;
             Nivel3.UseVisualStyleBackColor = true;
             // 
             // division
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(150, 189, 223);
-            ClientSize = new Size(914, 600);
+            ClientSize = new Size(800, 450);
             Controls.Add(Nivel3);
             Controls.Add(Nivel2);
             Controls.Add(Nivel1);
             Controls.Add(BtnBack);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "division";
             Text = "division";
             ResumeLayout(false);

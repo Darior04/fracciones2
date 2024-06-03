@@ -40,10 +40,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(621, 379);
-            pictureBox1.Margin = new Padding(3, 4, 3, 4);
+            pictureBox1.Location = new Point(543, 284);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(259, 246);
+            pictureBox1.Size = new Size(227, 184);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -53,10 +52,9 @@
             BtnBack.FlatAppearance.BorderSize = 0;
             BtnBack.FlatStyle = FlatStyle.Flat;
             BtnBack.Image = (Image)resources.GetObject("BtnBack.Image");
-            BtnBack.Location = new Point(42, 77);
-            BtnBack.Margin = new Padding(3, 4, 3, 4);
+            BtnBack.Location = new Point(12, 12);
             BtnBack.Name = "BtnBack";
-            BtnBack.Size = new Size(127, 133);
+            BtnBack.Size = new Size(163, 146);
             BtnBack.TabIndex = 1;
             BtnBack.UseVisualStyleBackColor = true;
             BtnBack.Click += BtnBack_Click;
@@ -66,10 +64,9 @@
             Nivel1.FlatAppearance.BorderSize = 0;
             Nivel1.FlatStyle = FlatStyle.Flat;
             Nivel1.Image = (Image)resources.GetObject("Nivel1.Image");
-            Nivel1.Location = new Point(258, 194);
-            Nivel1.Margin = new Padding(3, 4, 3, 4);
+            Nivel1.Location = new Point(220, 133);
             Nivel1.Name = "Nivel1";
-            Nivel1.Size = new Size(127, 152);
+            Nivel1.Size = new Size(140, 166);
             Nivel1.TabIndex = 2;
             Nivel1.UseVisualStyleBackColor = true;
             Nivel1.Click += Nivel1_Click;
@@ -79,37 +76,35 @@
             Nivel2.FlatAppearance.BorderSize = 0;
             Nivel2.FlatStyle = FlatStyle.Flat;
             Nivel2.Image = (Image)resources.GetObject("Nivel2.Image");
-            Nivel2.Location = new Point(418, 193);
-            Nivel2.Margin = new Padding(3, 4, 3, 4);
+            Nivel2.Location = new Point(366, 132);
             Nivel2.Name = "Nivel2";
-            Nivel2.Size = new Size(130, 154);
+            Nivel2.Size = new Size(137, 167);
             Nivel2.TabIndex = 3;
             Nivel2.UseVisualStyleBackColor = true;
+            Nivel2.Click += Nivel2_Click;
             // 
             // Nivel3
             // 
             Nivel3.FlatAppearance.BorderSize = 0;
             Nivel3.FlatStyle = FlatStyle.Flat;
             Nivel3.Image = (Image)resources.GetObject("Nivel3.Image");
-            Nivel3.Location = new Point(577, 193);
-            Nivel3.Margin = new Padding(3, 4, 3, 4);
+            Nivel3.Location = new Point(509, 132);
             Nivel3.Name = "Nivel3";
-            Nivel3.Size = new Size(134, 151);
+            Nivel3.Size = new Size(136, 167);
             Nivel3.TabIndex = 4;
             Nivel3.UseVisualStyleBackColor = true;
             // 
             // Suma
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(150, 189, 223);
-            ClientSize = new Size(914, 600);
+            ClientSize = new Size(800, 450);
             Controls.Add(Nivel3);
             Controls.Add(Nivel2);
             Controls.Add(Nivel1);
             Controls.Add(BtnBack);
             Controls.Add(pictureBox1);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "Suma";
             Text = "Suma";
             Load += Suma_Load;

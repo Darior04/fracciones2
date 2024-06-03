@@ -16,5 +16,42 @@ namespace fracciones
         {
             InitializeComponent();
         }
+
+        private void btnChecar_Click(object sender, EventArgs e)
+        {
+            // Obtener los valores ingresados en los TextBox
+            string valor1 = numero1.Text;
+            string valor2 = numero2.Text;
+            string valor3 = numero3.Text;
+
+            // Definir los valores esperados
+            string[] valoresEsperados = { "5", "5", "20" };
+
+            // Verificar si los valores ingresados son correctos
+            if (valor1 == valoresEsperados[0] &&
+                valor2 == valoresEsperados[1] &&
+                valor3 == valoresEsperados[2])
+            {
+                // Mostrar mensaje de felicitación
+                MessageBox.Show("¡Felicidades, lo hiciste correctamente!", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                // Mostrar mensaje de error
+                MessageBox.Show("Lo siento, los valores ingresados no son correctos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            // formulario que quieres mostrar
+            Suma ventana = new Suma();
+
+            // Mostrar el nuevo formulario
+            ventana.Show();
+
+            // Cerrar el formulario actual
+            this.Hide();
+        }
     }
 }

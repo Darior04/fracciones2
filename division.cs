@@ -40,5 +40,17 @@ namespace fracciones
             // Cerrar el formulario actual
             this.Hide();
         }
+
+        private void Nivel2_Click(object sender, EventArgs e)
+        {
+            // formulario que quieres mostrar
+            nivel2division ventana = new nivel2division();
+
+            // Mostrar el nuevo formulario
+            ventana.Show();
+
+            // Cerrar el formulario actual
+            this.Hide();
+        }
     }
 }
