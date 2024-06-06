@@ -45,7 +45,7 @@
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(-4, -5);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(821, 459);
+            pictureBox1.Size = new Size(820, 455);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -94,14 +94,14 @@
             // btnChecar
             // 
             btnChecar.Anchor = AnchorStyles.None;
-            btnChecar.BackColor = SystemColors.ControlLightLight;
+            btnChecar.BackColor = Color.Transparent;
             btnChecar.BackgroundImage = (Image)resources.GetObject("btnChecar.BackgroundImage");
             btnChecar.FlatAppearance.BorderSize = 0;
             btnChecar.FlatStyle = FlatStyle.Flat;
             btnChecar.Image = (Image)resources.GetObject("btnChecar.Image");
-            btnChecar.Location = new Point(12, 398);
+            btnChecar.Location = new Point(-4, 398);
             btnChecar.Name = "btnChecar";
-            btnChecar.Size = new Size(189, 40);
+            btnChecar.Size = new Size(193, 40);
             btnChecar.TabIndex = 6;
             btnChecar.UseVisualStyleBackColor = false;
             btnChecar.Click += btnChecar_Click;
@@ -124,13 +124,13 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(btnAtras);
             Controls.Add(btnChecar);
             Controls.Add(numero5);
             Controls.Add(numero4);
             Controls.Add(numero3);
             Controls.Add(numero2);
             Controls.Add(numero1);
+            Controls.Add(btnAtras);
             Controls.Add(pictureBox1);
             Name = "nivel1Suma";
             Text = "nivel1Suma";
