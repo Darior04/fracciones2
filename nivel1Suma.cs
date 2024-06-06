@@ -68,6 +68,12 @@ namespace fracciones
             {
                 // Mostrar mensaje de felicitación
                 MessageBox.Show("¡Felicidades, lo hiciste correctamente!", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                // enviar al siguiente formulario
+                nivel2suma ventana = new nivel2suma();
+                ventana.Show();
+
+                // Ocultar el formulario actual
+                this.Hide();
             }
             else
             {

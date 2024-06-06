@@ -57,5 +57,17 @@ namespace fracciones
             // Cerrar el formulario actual
             this.Hide();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            // formulario que quieres mostrar
+            Iniciopag ventana = new Iniciopag();
+
+            // Mostrar el nuevo formulario
+            ventana.Show();
+
+            // Cerrar el formulario actual
+            this.Hide();
+        }
     }
 }

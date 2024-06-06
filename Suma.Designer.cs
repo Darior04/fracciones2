@@ -52,9 +52,9 @@
             BtnBack.FlatAppearance.BorderSize = 0;
             BtnBack.FlatStyle = FlatStyle.Flat;
             BtnBack.Image = (Image)resources.GetObject("BtnBack.Image");
-            BtnBack.Location = new Point(12, 12);
+            BtnBack.Location = new Point(-82, -80);
             BtnBack.Name = "BtnBack";
-            BtnBack.Size = new Size(163, 146);
+            BtnBack.Size = new Size(296, 298);
             BtnBack.TabIndex = 1;
             BtnBack.UseVisualStyleBackColor = true;
             BtnBack.Click += BtnBack_Click;
