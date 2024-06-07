@@ -19,7 +19,14 @@ namespace fracciones
 
         private void btnAtras_Click(object sender, EventArgs e)
         {
+            // formulario que quieres mostrar
+            Resta ventana = new Resta();
 
+            // Mostrar el nuevo formulario
+            ventana.Show();
+
+            // Cerrar el formulario actual
+            this.Hide();
         }
     }
 }

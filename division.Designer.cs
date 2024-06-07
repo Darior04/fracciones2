@@ -29,23 +29,11 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(division));
-            BtnBack = new Button();
             Nivel1 = new Button();
             Nivel2 = new Button();
             Nivel3 = new Button();
+            btnAtras = new Button();
             SuspendLayout();
-            // 
-            // BtnBack
-            // 
-            BtnBack.FlatAppearance.BorderSize = 0;
-            BtnBack.FlatStyle = FlatStyle.Flat;
-            BtnBack.Image = (Image)resources.GetObject("BtnBack.Image");
-            BtnBack.Location = new Point(12, 21);
-            BtnBack.Name = "BtnBack";
-            BtnBack.Size = new Size(139, 143);
-            BtnBack.TabIndex = 0;
-            BtnBack.UseVisualStyleBackColor = true;
-            BtnBack.Click += BtnBack_Click;
             // 
             // Nivel1
             // 
@@ -81,6 +69,20 @@
             Nivel3.Size = new Size(144, 162);
             Nivel3.TabIndex = 3;
             Nivel3.UseVisualStyleBackColor = true;
+            Nivel3.Click += Nivel3_Click;
+            // 
+            // btnAtras
+            // 
+            btnAtras.BackColor = Color.Transparent;
+            btnAtras.FlatAppearance.BorderSize = 0;
+            btnAtras.FlatStyle = FlatStyle.Flat;
+            btnAtras.Image = (Image)resources.GetObject("btnAtras.Image");
+            btnAtras.Location = new Point(12, 12);
+            btnAtras.Name = "btnAtras";
+            btnAtras.Size = new Size(119, 123);
+            btnAtras.TabIndex = 12;
+            btnAtras.UseVisualStyleBackColor = false;
+            btnAtras.Click += btnAtras_Click;
             // 
             // division
             // 
@@ -88,20 +90,19 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(150, 189, 223);
             ClientSize = new Size(800, 450);
+            Controls.Add(btnAtras);
             Controls.Add(Nivel3);
             Controls.Add(Nivel2);
             Controls.Add(Nivel1);
-            Controls.Add(BtnBack);
             Name = "division";
             Text = "division";
             ResumeLayout(false);
         }
 
         #endregion
-
-        private Button BtnBack;
         private Button Nivel1;
         private Button Nivel2;
         private Button Nivel3;
+        private Button btnAtras;
     }
 }

@@ -69,5 +69,17 @@ namespace fracciones
             // Cerrar el formulario actual
             this.Hide();
         }
+
+        private void Nivel3_Click(object sender, EventArgs e)
+        {
+            // formulario que quieres mostrar
+            nivel3Suma ventana = new nivel3Suma();
+
+            // Mostrar el nuevo formulario
+            ventana.Show();
+
+            // Cerrar el formulario actual
+            this.Hide();
+        }
     }
 }

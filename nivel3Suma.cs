@@ -16,5 +16,17 @@ namespace fracciones
         {
             InitializeComponent();
         }
+
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            // formulario que quieres mostrar
+            Suma ventana = new Suma();
+
+            // Mostrar el nuevo formulario
+            ventana.Show();
+
+            // Cerrar el formulario actual
+            this.Hide();
+        }
     }
 }

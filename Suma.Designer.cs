@@ -93,6 +93,7 @@
             Nivel3.Size = new Size(136, 167);
             Nivel3.TabIndex = 4;
             Nivel3.UseVisualStyleBackColor = true;
+            Nivel3.Click += Nivel3_Click;
             // 
             // Suma
             // 

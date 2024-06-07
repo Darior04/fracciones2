@@ -49,6 +49,7 @@
             btnAtras.Size = new Size(119, 123);
             btnAtras.TabIndex = 8;
             btnAtras.UseVisualStyleBackColor = false;
+            btnAtras.Click += btnAtras_Click;
             // 
             // btnChecar
             // 

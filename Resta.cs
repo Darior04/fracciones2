@@ -52,5 +52,29 @@ namespace fracciones
             // Cerrar el formulario actual
             this.Hide();
         }
+
+        private void Nivel3_Click(object sender, EventArgs e)
+        {
+            // formulario que quieres mostrar
+            nivel3Resta ventana = new nivel3Resta();
+
+            // Mostrar el nuevo formulario
+            ventana.Show();
+
+            // Cerrar el formulario actual
+            this.Hide();
+        }
+
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            // formulario que quieres mostrar
+            Iniciopag ventana = new Iniciopag();
+
+            // Mostrar el nuevo formulario
+            ventana.Show();
+
+            // Cerrar el formulario actual
+            this.Hide();
+        }
     }
 }

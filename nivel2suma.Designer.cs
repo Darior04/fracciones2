@@ -29,34 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(nivel2suma));
-            pictureBox1 = new PictureBox();
-            btnChecar = new Button();
             numero1 = new TextBox();
             numero2 = new TextBox();
             numero3 = new TextBox();
             btnAtras = new Button();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            btnChecar = new Button();
             SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(-1, -5);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(802, 455);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            // 
-            // btnChecar
-            // 
-            btnChecar.Location = new Point(12, 404);
-            btnChecar.Name = "btnChecar";
-            btnChecar.Size = new Size(149, 34);
-            btnChecar.TabIndex = 1;
-            btnChecar.Text = "Revisar";
-            btnChecar.UseVisualStyleBackColor = true;
-            btnChecar.Click += btnChecar_Click;
             // 
             // numero1
             // 
@@ -81,39 +59,52 @@
             // 
             // btnAtras
             // 
+            btnAtras.BackColor = Color.Transparent;
+            btnAtras.FlatAppearance.BorderSize = 0;
+            btnAtras.FlatStyle = FlatStyle.Flat;
+            btnAtras.Image = (Image)resources.GetObject("btnAtras.Image");
             btnAtras.Location = new Point(12, 12);
             btnAtras.Name = "btnAtras";
-            btnAtras.Size = new Size(85, 31);
-            btnAtras.TabIndex = 5;
-            btnAtras.Text = "button1";
-            btnAtras.UseVisualStyleBackColor = true;
-            btnAtras.Click += btnAtras_Click;
+            btnAtras.Size = new Size(119, 123);
+            btnAtras.TabIndex = 10;
+            btnAtras.UseVisualStyleBackColor = false;
+            // 
+            // btnChecar
+            // 
+            btnChecar.Anchor = AnchorStyles.None;
+            btnChecar.BackColor = Color.Transparent;
+            btnChecar.FlatAppearance.BorderSize = 0;
+            btnChecar.FlatStyle = FlatStyle.Flat;
+            btnChecar.Image = (Image)resources.GetObject("btnChecar.Image");
+            btnChecar.Location = new Point(12, 398);
+            btnChecar.Name = "btnChecar";
+            btnChecar.Size = new Size(193, 40);
+            btnChecar.TabIndex = 11;
+            btnChecar.UseVisualStyleBackColor = false;
             // 
             // nivel2suma
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnChecar);
             Controls.Add(btnAtras);
             Controls.Add(numero3);
             Controls.Add(numero2);
             Controls.Add(numero1);
-            Controls.Add(btnChecar);
-            Controls.Add(pictureBox1);
             Name = "nivel2suma";
             Text = "nivel2suma";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private PictureBox pictureBox1;
-        private Button btnChecar;
         private TextBox numero1;
         private TextBox numero2;
         private TextBox numero3;
         private Button btnAtras;
+        private Button btnChecar;
     }
 }
